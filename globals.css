@@ -1626,6 +1626,12 @@ select, .form-control, .custom-select {
   .kc-corporate-withdrawal-instruction-list .kc-modal .kc-modal__container .kc-modal__main .kc-modal__header .kc-modal__title span.kc-headline5, .kc-corporate-withdrawal-instruction-detail .kc-modal .kc-modal__container .kc-modal__main .kc-modal__header .kc-modal__title span.kc-headline5 {
     font-size: 22px; }
 
+.kc-corporate-withdrawal-instruction-list table tbody tr:has(td [data-status="FAILED"]) td, .kc-corporate-withdrawal-instruction-detail table tbody tr:has(td [data-status="FAILED"]) td {
+  background-color: #F8D7DA; }
+  .kc-corporate-withdrawal-instruction-list table tbody tr:has(td [data-status="FAILED"]) td .kc-rounded-button button, .kc-corporate-withdrawal-instruction-list table tbody tr:has(td [data-status="FAILED"]) td .kc-rounded-button button:hover, .kc-corporate-withdrawal-instruction-detail table tbody tr:has(td [data-status="FAILED"]) td .kc-rounded-button button, .kc-corporate-withdrawal-instruction-detail table tbody tr:has(td [data-status="FAILED"]) td .kc-rounded-button button:hover {
+    background-color: transparent;
+    border: none; }
+
 /**
   Styling for account search page [FUNDING]
 */

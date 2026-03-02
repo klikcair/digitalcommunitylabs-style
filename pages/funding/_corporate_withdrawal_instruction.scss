@@ -8,4 +8,15 @@
       }
     }
   }
+
+  table tbody tr:has(td [data-status="FAILED"]) {
+    td {
+      background-color: #F8D7DA;
+
+      .kc-rounded-button button, .kc-rounded-button button:hover {
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
 }
