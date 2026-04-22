@@ -716,6 +716,12 @@ select, .form-control, .custom-select {
       margin-bottom: 5px; }
       .kc-list-users .kc-user-registration-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-roles .kc-roles__option .kc-checkbox label, .kc-list-users .kc-edit-user-profile-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-roles .kc-roles__option .kc-checkbox label {
         max-width: none; }
+  .kc-list-users .kc-user-registration-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-inputfield .kc-inputfield__subtitle, .kc-list-users .kc-edit-user-profile-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-inputfield .kc-inputfield__subtitle {
+    margin-top: 0; }
+    .kc-list-users .kc-user-registration-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-inputfield .kc-inputfield__subtitle span.kc-overline, .kc-list-users .kc-edit-user-profile-modal .kc-modal .kc-modal__container .kc-modal__content .kc-form-group .kc-inputfield .kc-inputfield__subtitle span.kc-overline {
+      color: #FF4D4F;
+      font-size: 12px;
+      letter-spacing: 0.75px; }
   .kc-list-users .kc-user-registration-modal .kc-modal .kc-modal__container .kc-modal__content p.text-notes, .kc-list-users .kc-edit-user-profile-modal .kc-modal .kc-modal__container .kc-modal__content p.text-notes {
     height: 1rem;
     margin-bottom: 0; }

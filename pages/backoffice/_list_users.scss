@@ -24,6 +24,16 @@
                 }
               }
             }
+
+            .kc-inputfield .kc-inputfield__subtitle {
+              margin-top: 0;
+  
+              span.kc-overline {
+                color: #FF4D4F;
+                font-size: 12px;
+                letter-spacing: 0.75px;
+              }
+            }
           }
 
           p.text-notes {
